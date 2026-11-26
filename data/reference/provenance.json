@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-11-26T00:19:56.557081+00:00",
+  "start": "2010-01-01",
+  "end": "2026-09-01",
+  "rows": 201,
+  "sha256": "023d614f16e4c2f9f3172bf88caa1f6ab9980c3e0ba56423f488eb24bc7ed184",
+  "cpi_source": "https://www.audit-it.ru/inform/inflation/",
+  "cpi_source_type": "Secondary republication of Rosstat monthly CPI, index minus 100",
+  "usd_source": "https://www.cbr.ru/scripts/XML_dynamic.asp",
+  "usd_transform": "Monthly mean of published daily rates, percent change",
+  "units": {
+    "cpi_mom": "percent month-on-month",
+    "usd_rub_mom": "percent month-on-month"
+  },
+  "limitations": [
+    "Latest downloaded vintage; historical release dates and revisions not reconstructed",
+    "Not a point-in-time archive",
+    "CPI source is secondary, not a direct Rosstat export"
+  ]
+}
